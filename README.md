@@ -31,7 +31,7 @@ These segments can help businesses understand customer behavior and develop targ
 
 ## 🧠 Techniques & Tools Used
 - **Language:** Python  
-- **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `joblib`  
+- **Libraries:** `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `joblib`, `streamlit`
 - **Algorithms:**
   - **K-Means Clustering** – for grouping customers based on feature similarity  
   - **DBSCAN** – for density-based clustering and noise detection  
