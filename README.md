@@ -5,15 +5,7 @@ This project analyzes mall customer data to identify different customer groups b
 
 ---
 
-## 📂 Project Structure
-customer_segmentation/
-│
-├─ app.py ← Main Python application script
-├─ dbscan_model.joblib ← Pre-trained DBSCAN clustering model
-├─ kmeans_model.joblib ← Pre-trained K-Means clustering model
-├─ Mall Customer Segment.ipynb ← Jupyter notebook for EDA & modeling
-├─ Mall_Customers.csv ← Dataset used for training & analysis
-└─ scaler.joblib ← StandardScaler object used for preprocessing
+
 
 
 ---
@@ -67,8 +59,16 @@ These segments can help businesses understand customer behavior and develop targ
 
 ---
 
-## 🚀 How to Use
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/ahmedessam77/customer-segmentation.git
+## 📂 Project Structure
+
+```plaintext
+customer_segmentation/
+│
+├─ app.py                        ← Main Python application script
+├─ dbscan_model.joblib           ← Pre-trained DBSCAN clustering model
+├─ kmeans_model.joblib           ← Pre-trained K-Means clustering model
+├─ Mall Customer Segment.ipynb   ← Jupyter notebook for EDA & modeling
+├─ Mall_Customers.csv            ← Dataset used for training & analysis
+└─ scaler.joblib                 ← StandardScaler object used for preprocessing
+
    cd customer-segmentation
