@@ -48,14 +48,55 @@ These segments can help businesses understand customer behavior and develop targ
 
 ---
 
-## ✅ Key Results & Insights
-- Customers were grouped into distinct segments such as:
-  - **High Income – High Spending**
-  - **Average Income – Average Spending**
-  - **Low Income – High Spending (Potential Loyalists)**
-  - **Low Income – Low Spending**
-- **DBSCAN** identified outliers not belonging to any major group.  
-- These results help businesses plan **personalized promotions**, **loyalty programs**, and **targeted campaigns**.
+---
+
+## 🔍 Why K = 5?
+
+| K | Silhouette | Davies-Bouldin | Status |
+|---|-------------|----------------|--------|
+| 4 | 0.494 | 0.710 | Good |
+| **5** | **0.555** | **0.572** | ✅ **Best** |
+| 6 | 0.540 | 0.655 | Declining |
+
+✅ **K = 5** was selected because it achieved:
+- The **highest Silhouette Score (0.555)** → best cluster separation.  
+- The **lowest Davies-Bouldin Index (0.572)** → most distinct clusters.  
+- Balanced number of customers per group with clear behavioral differences.
+
+---
+
+## 👥 Customer Segments
+
+| Cluster | Description | Profile | Strategy |
+|----------|-------------|----------|-----------|
+| **0** 💼 | Low Income, Low Spenders | Budget-conscious customers | Discounts, value offerings |
+| **1** 💎 | High Income, Low Spenders | Wealthy but selective | Premium quality products |
+| **2** 🎯 | Low Income, High Spenders | Enthusiastic shoppers | Payment plans, trendy items |
+| **3** ⭐ | High Income, High Spenders | VIP customers (most valuable) | Luxury items, VIP programs |
+| **4** 🌟 | Moderate Spenders | Balanced middle-market | Seasonal promotions |
+
+---
+
+## 📊 Dashboard Pages
+
+| Page | Description |
+|-------|-------------|
+| **Overview** | Key metrics and overall project summary |
+| **Data Exploration** | Interactive visualizations and distributions |
+| **Clustering Results** | 5-cluster visualization for K=5 |
+| **Customer Insights** | Detailed segment profiles & business strategies |
+| **Predict Cluster** | Enter or upload new customer data to predict cluster |
+
+---
+
+## 📈 Key Results
+
+- 🧍 **200 customers** segmented into **5 distinct clusters**  
+- 🌀 **Silhouette Score:** 0.555 → strong cluster separation  
+- 📉 **Davies-Bouldin Index:** 0.572 → low intra-cluster variance  
+- 💰 **Income vs Spending:** weak correlation → suitable for clustering  
+- 🌟 **20% of customers** belong to **Cluster 3 (High Value Group)**  
+- Streamlit dashboard provides **clear visualization and insights**
 
 ---
 
