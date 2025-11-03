@@ -5,11 +5,6 @@ This project analyzes mall customer data to identify different customer groups b
 
 ---
 
-
-
-
----
-
 ## 🎯 Objective
 The main objective of this project is to **segment mall customers** into meaningful groups using clustering techniques.  
 These segments can help businesses understand customer behavior and develop targeted marketing strategies.
